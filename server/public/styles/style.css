@@ -1,0 +1,58 @@
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/564x/6d/13/87/6d138797595b48d13d8489d65b899523.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+main {
+    text-align: center;
+}
+
+header {
+    background: black;
+    color: white;
+    text-align: center;
+    margin: 45px 0;
+}
+a {
+    color: black;
+}
+li {
+    border: 1px solid black;
+}
+p {
+    background-color: white;
+    margin: 23px 10px 10px 5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 1px;
+}
+
+.pic {
+  max-width: 100%;
+      height: auto;
+    border-radius: 5%;
+    border: 8px solid white;
+}
+
+.container {
+    margin-top: 50px;
+    width: 500px;
+    height: 550px;
+    border-radius: 10px;
+    border: 10px solid white;
+    display: inline-block;
+}
+
+html, body {
+  height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}

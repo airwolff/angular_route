@@ -1,0 +1,9 @@
+<div  class="container">
+  <img class="pic" src="{{t800.image}}" />
+  <label ng-hide="name" for="change">Title</label>
+  <label ng-show="name" for="change">Designation</label>
+  <input name="change" type="radio" ng-model="name">
+  <h2 ng-hide="name">{{t800.title}}</h2>
+  <h2 ng-show="name">{{t800.designation}}</h2>
+  <p>{{t800.history}}</p>
+</div>

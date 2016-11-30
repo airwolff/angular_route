@@ -1,0 +1,9 @@
+<div  class="container">
+  <img class="pic" src="{{hal.image}}" />
+  <label ng-hide="name" for="change">Title</label>
+  <label ng-show="name" for="change">Designation</label>
+  <input name="change" type="radio" ng-model="name">
+  <h2 ng-hide="name">{{hal.title}}</h2>
+  <h2 ng-show="name">{{hal.designation}}</h2>
+  <p>{{hal.history}}</p>
+</div>
